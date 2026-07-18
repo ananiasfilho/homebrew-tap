@@ -1,6 +1,6 @@
 cask "frontasks" do
-  version "0.1.0"
-  sha256 "8fe130bb964fbfe9fe3b404d336379efe6d8481283541661e0851e3c6bac20fd"
+  version "0.1.1"
+  sha256 "2fefdcd1ed860aa85d3fa29f2e2cd6b92110228991f6054d230539fae4b07d61"
 
   url "https://github.com/ananiasfilho/frontasks-app/releases/download/v#{version}/Frontasks-#{version}.dmg"
   name "Frontasks"
@@ -23,6 +23,6 @@ cask "frontasks" do
 
   zap trash: [
     "~/Library/Application Support/Frontasks",
-    "~/Library/Preferences/com.kmee.frontasks.plist",
+    "~/Library/Preferences/com.ananiasfilho.frontasks.plist",
   ]
 end
