@@ -1,6 +1,6 @@
 cask "frontasks" do
-  version "0.1.2"
-  sha256 "54e9d48357f11271ff4e7c0470ab9068090a8c1fa372d6e663704620ab64fee8"
+  version "0.1.3"
+  sha256 "158538a434c8557292f91f06f92f24dadf27db736c18bbfe5d0a6f4e014ccf70"
 
   url "https://github.com/ananiasfilho/frontasks-app/releases/download/v#{version}/Frontasks-#{version}.dmg"
   name "Frontasks"
@@ -8,7 +8,6 @@ cask "frontasks" do
   homepage "https://github.com/ananiasfilho/frontasks-app"
 
   depends_on macos: :sequoia
-  depends_on arch: :arm64
 
   app "Frontasks.app"
 
