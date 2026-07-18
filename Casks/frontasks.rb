@@ -1,6 +1,6 @@
 cask "frontasks" do
-  version "0.1.6"
-  sha256 "eedaaf2c92cabd66638719d2f0063bb0766b17a74f9b37ede8eb621e0b20fef8"
+  version "0.1.0"
+  sha256 "2d8cc348677dae58f2e78a6af0142b6e2b92148bd7d6662d994a708cf21249a8"
 
   url "https://github.com/ananiasfilho/frontasks-app/releases/download/v#{version}/FronTasks-#{version}.dmg"
   name "FronTasks"
